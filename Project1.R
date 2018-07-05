@@ -1,6 +1,6 @@
 #Projects
 #after projects
-test2<-ifelse(test1<10,'tumor','normal')
+
 
 #test4<-ifelse(test3<10,'tumor','normal')
 
