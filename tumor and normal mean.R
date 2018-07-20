@@ -114,17 +114,17 @@ test_C[1]
 test_D[1]
 
  # Finding the mean of normal and tumor samples and then assigning them to a variable :
-apply( normal_samples, rows, mean)
+apply( normal_samples, 1, mean)
 
-normal_mean <- apply( normal_samples, rows, mean)
+normal_mean <- apply( normal_samples, 1, mean)
 
 normal_mean
 
 # Now find the mean of tumor and assign it to tumor_mean :
 
-apply( tumor_samples, rows, mean)
+apply( tumor_samples, 1, mean)
 
-tumor_mean <- apply( normal_samples, rows, mean)
+tumor_mean <- apply( normal_samples, 1, mean)
 
 tumor_mean
 
